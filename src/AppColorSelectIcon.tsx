@@ -38,7 +38,6 @@ const ColorSchemeSelectIcon = () => {
       return (
          <Box
             sx={(theme: CustomTheme) => {
-               // copy from OutlinedInput
                const borderColor =
                   theme.palette.mode === "light"
                      ? "rgba(0, 0, 0, 0.23)"
