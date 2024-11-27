@@ -4,17 +4,24 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Divider from '@mui/material/Divider';
 import AppTheme from './AppTheme';
 import { GoogleIcon, FacebookIcon } from './AppIcon';
+import ColorSchemeSelectIcon from './AppColorSelectIcon';
 
 const App = () => {
    return (
       <AppTheme>
+         <Box 
+            sx={{position: 'fixed', top:'1rem', right: '1rem'}}
+         >
+            <ColorSchemeSelectIcon />
+         </Box>
          <Box
             sx={{
                padding: '2rem',
                maxWidth: '400px',
                margin: 'auto',
                marginTop: '10vh',
-               border: '1px solide #eee',
+               border: '1px solid #eee',
+               borderRadius: '16px',
                boxShadow: '0 2px 10px rgba(0, 0, 0, 0.08)',
             }}
          >
