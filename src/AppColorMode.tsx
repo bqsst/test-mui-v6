@@ -22,4 +22,4 @@ const ColorModeToggle = () => {
    )
 }
 
-export default ColorModeToggle
+export default ColorModeToggle;
